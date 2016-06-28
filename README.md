@@ -18,7 +18,7 @@ dependencies:
 
 
 ```crystal
-require "CrystalRandomAgent"
+require "crystal_random_agent"
 CrystalRandomAgent.get_random_user_agent
 ```
 

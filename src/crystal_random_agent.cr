@@ -1,4 +1,4 @@
-require "./CrystalRandomAgent/*"
+require "./crystal_random_agent/*"
 require "yaml"
 
 module CrystalRandomAgent

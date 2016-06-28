@@ -1,2 +1,2 @@
 require "spec"
-require "../src/CrystalRandomAgent"
+require "../src/crystal_random_agent"
