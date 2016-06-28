@@ -1,4 +1,4 @@
-# CrystalRandomAgent
+# crystal_random_agent
 
 Random user agents
 
@@ -9,8 +9,8 @@ Add this to your application's `shard.yml`:
 
 ```yaml
 dependencies:
-  CrystalRandomAgent:
-    github: Nephos/CrystalRandomAgent
+  crystal_random_agent:
+    github: Nephos/crystal_random_agent
 ```
 
 
@@ -31,7 +31,7 @@ TODO: Write development instructions here
 
 ## Contributing
 
-1. Fork it ( https://github.com/Nephos/CrystalRandomAgent/fork )
+1. Fork it ( https://github.com/Nephos/crystal_random_agent/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
