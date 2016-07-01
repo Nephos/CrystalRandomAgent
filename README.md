@@ -4,7 +4,6 @@ Random user agents
 
 ## Installation
 
-
 Add this to your application's `shard.yml`:
 
 ```yaml
@@ -16,14 +15,11 @@ dependencies:
 
 ## Usage
 
-
 ```crystal
 require "crystal_random_agent"
 CrystalRandomAgent.get_random_user_agent
 ```
 
-
-TODO: Write usage instructions here
 
 ## Development
 

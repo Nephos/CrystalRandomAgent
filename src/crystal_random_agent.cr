@@ -4,7 +4,7 @@ require "yaml"
 module CrystalRandomAgent
 
   CONFIG_FILE = File.expand_path "./user_agents.yml", __DIR__
-  #CONFIG = YAML.parse(File.read CONFIG_FILE)
+  FLAT_YAML = {{ system("echo '\"'; cat ./src/user_agents.yml; echo '\"'") }}
   CONFIG = YAML.parse FLAT_YAML
 
   USER_AGENTS = CONFIG["user_agents"].as_h.map do |_, subtypes|
