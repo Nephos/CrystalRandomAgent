@@ -2,6 +2,8 @@
 
 Random user agents
 
+Works with crystal v0.23.0
+
 ## Installation
 
 Add this to your application's `shard.yml`:
